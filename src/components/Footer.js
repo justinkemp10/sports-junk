@@ -1,5 +1,6 @@
 import './Footer.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaHome, FaPhone, FaMailBulk } from 'react-icons/fa';
 
 const Footer = () => {
@@ -28,7 +29,29 @@ const Footer = () => {
             </div>
             <div className='right'>
               <div className='quick-links'>
-
+                <Link to='/'>
+                <h1>Sports Junk</h1>
+                </Link>
+                <ul className="footer-menu">
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='/collection'>Collection</Link>
+                    </li>
+                    <li>
+                        <Link to='/marketplace'>Marketplace</Link>
+                    </li>
+                    <li>
+                        <Link to='/blog'>Blog</Link>
+                    </li>
+                    <li>
+                        <Link to='/contact'>Contact</Link>
+                    </li>
+                    <li>
+                        <Link to='/loginsignup'>Login/Signup</Link>
+                    </li>
+                </ul>
               </div>
             </div>
         </div>
