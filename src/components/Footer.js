@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer-container'>
             <div className='left'>
                 <div>
-                  <h4>About Sports Junk</h4>
+                  <h4>About</h4>
                   <p>Sports Junk is an app built for sports memorabilia enthusiasts. It is engineered to make it easier for collectors to manage, trade, sell, and add to their collection.</p>
                 </div>
                 <div className='location'>
